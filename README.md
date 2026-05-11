@@ -9,7 +9,6 @@ O ESP32 executa a leitura do sensor e processa os dados recebidos. Com base na l
 
 ## Componentes utilizados
 - ESP32 (plataforma de desenvolvimento)
-- 
 -Sensor digital (simulador)
 -LED (atuador)
 - Resistor(limitação de corrente do LED)
