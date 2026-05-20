@@ -21,9 +21,29 @@ O ESP32 executa a leitura do sensor e processa os dados recebidos. Com base na l
  O  sistema utiliza conexão Wi-Fi para acessar à rede, executando sobre o protocolo TCI/IP.
  A comunicação IoT pode ser realizada utilizando o protocolo MQTT para envio e recebimento de mensagens via broker.
 
+## Tópicos MQTT utilizados
+-`casa/luz/ldr`- valor do sensor LDR
+-`residencia/lampada/status` - estado da lâmpada (ESCURO/CLARO)
+
+## Software utilizado
+-ESP32 Framework
+-Biblioteca PubSubclient.h
+-Simulação pelo Wokwi
+
  ## Simulação 
  O projeto foi desenvolvido e testado na plataforma Wokwi.
+ Durante os testes:
+ - O sistema foi validado em ambas as condições de baixa e alta luminosidade (ESCURO/CLARO)
+ - O LED respondeu perfeitamente à leitura do sensor
+ - A comunicação MQTT funcionou em tempo real
 
+## Apresentação
+O sistema apresenta
+- Conexão Wi-Fi
+- Comunicação MQTT
+- Leitura do sensor LDR
+- Acionamento do LED
 ## Como reproduzir
-Abra a simulação no Wokwi, selecione a placa ESP32, carregue o código do ESP32, adicione os componentes necessários, monte o circuito na protoboard virtual e execute o projeto.
- ##
+Abra a simulação no Wokwi, selecione a placa ESP32, carregue o código do ESP32, adicione os componentes necessários e a biblioteca necessária, monte o circuito na protoboard virtual e execute o projeto.
+Por fim, adicione um dashboard da sua preferência para demonstrar os dados em tempo real.
+ 
