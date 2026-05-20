@@ -34,11 +34,9 @@ O ESP32 executa a leitura do sensor e processa os dados recebidos. Com base na l
 - Jumpers
 
 ## Software Utilizado
--ESP32 Framework
-
--Biblioteca PubSubclient.h
-
--Simulação pelo Wokwi
+- ESP32 Framework
+- Biblioteca PubSubclient.h
+- Simulação pelo Wokwi
 
  ## Simulação 
  O projeto foi desenvolvido e testado na plataforma Wokwi.
