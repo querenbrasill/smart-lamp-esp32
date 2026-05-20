@@ -22,12 +22,14 @@ O ESP32 executa a leitura do sensor e processa os dados recebidos. Com base na l
  A comunicação IoT pode ser realizada utilizando o protocolo MQTT para envio e recebimento de mensagens via broker.
 
 ## Tópicos MQTT utilizados
--`casa/luz/ldr`- valor do sensor LDR
+-`casa/luz/ldr`- valor do sensor LDR                                                                                                                                
 -`residencia/lampada/status` - estado da lâmpada (ESCURO/CLARO)
 
 ## Software utilizado
 -ESP32 Framework
+
 -Biblioteca PubSubclient.h
+
 -Simulação pelo Wokwi
 
  ## Simulação 
