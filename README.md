@@ -26,12 +26,12 @@ O ESP32 executa a leitura do sensor e processa os dados recebidos. Com base na l
 -`residencia/lampada/status` - estado da lâmpada (ESCURO/CLARO
 
 ## Hardware Utilizado
--ESP32 (simulado no Wokwi)
--Sensor LDR
--LED
--Resistor
--Protoboard(simulação)
--Jumpers
+- ESP32 (simulado no Wokwi)
+- Sensor LDR
+- LED
+- Resistor
+- Protoboard(simulação)
+- Jumpers
 
 ## Software Utilizado
 -ESP32 Framework
