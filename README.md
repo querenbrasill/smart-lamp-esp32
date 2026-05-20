@@ -23,9 +23,17 @@ O ESP32 executa a leitura do sensor e processa os dados recebidos. Com base na l
 
 ## Tópicos MQTT utilizados
 -`casa/luz/ldr`- valor do sensor LDR                                                                                                                                
--`residencia/lampada/status` - estado da lâmpada (ESCURO/CLARO)
+-`residencia/lampada/status` - estado da lâmpada (ESCURO/CLARO
 
-## Software utilizado
+## Hardware Utilizado
+-ESP32 (simulado no Wokwi)
+-Sensor LDR
+-LED
+-Resistor
+-Protoboard(simulação)
+-Jumpers
+
+## Software Utilizado
 -ESP32 Framework
 
 -Biblioteca PubSubclient.h
